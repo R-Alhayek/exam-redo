@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(255, 229, 72, 255);
+    padding: 20px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    margin-top: 15px;
+    
+    
+}
+
+header div p {
+    font-family: 'Fredoka One', cursive;
+    display: inline-block;
+    border: 2px solid rgb(165, 164, 164); 
+    border-radius: 3px;
+    background-color: whitesmoke;
+    padding: 2px;
+    padding-left: 6px;
+    padding-right: 3px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+header div p span {
+    color: red;
+    font-size: 15px;
+}
+
+body {
+    background-image: url("https://images.creativemarket.com/0.1.0/ps/6463322/1131/750/m1/fpnw/wm0/screenshot_2-.png?1559133476&s=1ffcef3cadc30f3d3b37520b3c3b13d2");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+}
+
+#myForm {
+    background-color: rgba(255, 229, 72, 255);
+    display: inline-block;
+    margin: 40px;
+    padding: 75px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+label {
+    font-family: 'Fredoka One', cursive;
+    color: red;
+    padding-left: 30px;
+    
+    
+    
+}
+
+#userName {
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    padding-right: 20px;
+    border: 2px solid black;
+
+
+
+}
+
+#foodType {
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    padding-right: 100px;
+    border: 2px solid black;
+    
+}
+
+#submit {
+    padding: 5px;
+    border-radius: 8px;
+    padding-right: 140px;
+    background-color: red;
+    color: seashell;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#myTable {
+    background-color: rgba(255, 229, 72, 255);
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+    padding: 50px;
+    margin-top: -390px;
+    border-radius: 8px;
+     
+
+}
+th {
+    border: 3px solid red;
+    background-color: wheat;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Fredoka One', cursive;
+}
+
+footer {
+    background-color: rgba(255, 229, 72, 255);
+    text-align: center;
+    padding: 20px;
+    font-family: 'Fredoka One', cursive;
+    color: red;
+    margin-top: 50px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    padding:5px;
+    margin-left: 100px;
+}
+
+#removeItems {
+    float: right;
+    margin-right: 800px;
+    background-color: red;
+    color: honeydew;
+    padding: 8px;
+    border-radius: 8px;
+
+}
+
+td {
+    font-family: 'Fredoka One', cursive;
+    border: 3px solid red;
+    background-color: wheat;
+    padding:5px;
+    
+
+}

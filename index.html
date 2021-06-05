@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Lovers</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Food Lovers</h1>
+            <p> I <span>&hearts;</span> FOOD</p>
+        </div>
+    </header>
+    <main>
+        <div>
+            <form action="" id="myForm">
+                <fieldset>
+                    <legend></legend>
+                    <label for="userName">Customer Name</label>
+                    <br />
+                    <input type="text" id="userName" name="userName">
+                    <br />
+
+                    <label for="foodType">Food Type</label>
+                    <br />
+                    <select name="foodType" id="foodType">
+                        <option value="shawarma">shawarma</option>
+                        <option value="burger">burger</option>
+                        <option value="pizza">pizza</option>
+                    </select>
+                    <br />
+                    <input type="submit" value="Submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+
+        <div>
+            <table id="myTable">
+                <thead id="tableHead">
+                    <tr>
+                        <th>Order Image</th>
+                        <th>Order Details</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+
+            </table>
+        </div>
+
+        <div >
+            <button onclick="removeOrders()" id="removeItems">Remove Your Orders</button>
+
+        </div>
+    </main>
+
+    <footer>
+        301 Entrance Exam &copy;
+
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
